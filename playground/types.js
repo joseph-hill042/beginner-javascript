@@ -24,3 +24,12 @@ console.info(
   person,
   `My name is ${person.first} ${person.last} and I am ${person.age} years old.`
 );
+
+// null & undefined
+let somethingUndefined;
+const somethingNull = null;
+
+console.info(
+  `the variable somethingUndefined is equal to ${somethingUndefined}`
+);
+console.info(`the variable somethingNull is equal to ${somethingNull}`);
