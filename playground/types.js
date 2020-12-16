@@ -6,10 +6,21 @@ const lastName = `Hill`;
 console.info(`Hi, ${firstName} ${middleName} ${lastName}`);
 
 // Numbers
-
 const a = 10;
 const b = 20;
 
 const result = a + b;
 
 console.info(`${a} + ${b} = ${result}`);
+
+// Objects
+const person = {
+  age: 41,
+  first: 'Joseph',
+  last: 'Hill',
+};
+
+console.info(
+  person,
+  `My name is ${person.first} ${person.last} and I am ${person.age} years old.`
+);
