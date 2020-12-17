@@ -33,3 +33,23 @@ console.info(
   `the variable somethingUndefined is equal to ${somethingUndefined}`
 );
 console.info(`the variable somethingNull is equal to ${somethingNull}`);
+
+// Booleans and Equality
+let oldEnoughToDrink = false;
+const customerAge = 20;
+const ofAge = customerAge >= 21;
+
+if (ofAge) {
+  oldEnoughToDrink = true;
+}
+
+console.info(
+  `The customer is ${customerAge} years of age and ${
+    oldEnoughToDrink ? 'is' : 'is not'
+  } able to drink`
+);
+
+console.info(`
+  '10 === "10"' = ${10 === '10'}
+  '10 == "10"'  = ${10 == '10'}
+`);
