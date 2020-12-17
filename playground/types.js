@@ -48,7 +48,7 @@ console.info(
     oldEnoughToDrink ? 'is' : 'is not'
   } able to drink`
 );
-
+/* eslint-disable */
 console.info(`
   '10 === "10"' = ${10 === '10'}
   '10 == "10"'  = ${10 == '10'}
