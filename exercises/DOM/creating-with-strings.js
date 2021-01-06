@@ -16,4 +16,8 @@ const myFragment = document
 
 console.log(myFragment);
 
-document.body.appendChild(myFragment);
+
+
+
+document.body.appendChild(myFragment)
+
