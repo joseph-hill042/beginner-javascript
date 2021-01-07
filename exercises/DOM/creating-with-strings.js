@@ -8,16 +8,10 @@ const myHtml = `
   <img src="${src}" alt="${desc}">
 </div>
 `;
- 
+
 // turn a string into an element
-const myFragment = document
-                    .createRange()
-                    .createContextualFragment(myHtml);
+const myFragment = document.createRange().createContextualFragment(myHtml);
 
 console.log(myFragment);
 
-
-
-
-document.body.appendChild(myFragment)
-
+document.body.appendChild(myFragment);
